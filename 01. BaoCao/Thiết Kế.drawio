@@ -1,0 +1,218 @@
+<mxfile host="app.diagrams.net" modified="2023-05-28T06:02:38.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="qzOKkHTzVLQXxrbelMke" version="21.3.4" type="device">
+  <diagram id="hswe0TAONkcRhsybjK7s" name="Trang-1">
+    <mxGraphModel dx="1395" dy="599" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Khối xử lý trung tâm&lt;br&gt;Arduino Uno R3&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="348" y="181" width="94" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-2" value="Khối xe oto&lt;br&gt;(L298, motor 5v)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="540" y="98" width="177" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iJlHU1WcGfn2l2fbZ5cb-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JPuinaCgmuUVWmsQZRvT-4" target="JPuinaCgmuUVWmsQZRvT-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-4" value="Ứng dụng điều khiển hệ thống&lt;br&gt;(app android, HC05)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="64" y="232" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-7" value="Khối cánh tay robot&lt;br&gt;(4 servo)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="541" y="389" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;exitX=1;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JPuinaCgmuUVWmsQZRvT-1" target="JPuinaCgmuUVWmsQZRvT-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512" y="233" as="sourcePoint" />
+            <mxPoint x="562" y="183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="JPuinaCgmuUVWmsQZRvT-1" target="JPuinaCgmuUVWmsQZRvT-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484" y="307" as="sourcePoint" />
+            <mxPoint x="562" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JPuinaCgmuUVWmsQZRvT-11" target="JPuinaCgmuUVWmsQZRvT-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JPuinaCgmuUVWmsQZRvT-11" target="JPuinaCgmuUVWmsQZRvT-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JPuinaCgmuUVWmsQZRvT-11" target="JPuinaCgmuUVWmsQZRvT-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JPuinaCgmuUVWmsQZRvT-11" value="Nguồn&amp;nbsp;&lt;br&gt;(Pin 3,7v x3, mạch hạ áp)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="530.5" y="232" width="196" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-1" target="ChaTuG1xbA1_YxKwk9ks-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-1" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="478" width="103" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-2" value="App điều khiển gửi tín hiệu điều khiển" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="548" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-6" target="ChaTuG1xbA1_YxKwk9ks-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-6" value="HC05 nhận tín hiệu điều khiển, gửi đến arduino" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="649" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-10" value="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-7" target="ChaTuG1xbA1_YxKwk9ks-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-14" value="B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-7" target="ChaTuG1xbA1_YxKwk9ks-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-16" value="R" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-7" target="ChaTuG1xbA1_YxKwk9ks-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-19" value="L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-7" target="ChaTuG1xbA1_YxKwk9ks-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-7" value="tín hiệu?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="752" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-9" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;arduino gửi tín hiệu L298 cho 4 moto quay thuận cùng tốc độ&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="514" y="762" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-13" value="arduino gửi tín hiệu L298 cho 4 moto quay ngược cùng tốc độ" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="194" y="762" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-15" value="arduino gửi tín hiệu L298 cho 2 moto trái quay thuận 2 moto phải quay ngược" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="274" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-18" value="arduino gửi tín hiệu L298 cho 2 moto trái quay ngược 2 moto phải quay thuận" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="449" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-21" target="ChaTuG1xbA1_YxKwk9ks-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-21" value="Bắt đầu" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="1210" width="103" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-23" value="App điều khiển gửi tín hiệu điều khiển" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-25" target="ChaTuG1xbA1_YxKwk9ks-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-25" value="HC05 nhận tín hiệu điều khiển, gửi đến arduino" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1381" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-28" value="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-30" target="ChaTuG1xbA1_YxKwk9ks-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-29" value="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-30" target="ChaTuG1xbA1_YxKwk9ks-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-30" target="ChaTuG1xbA1_YxKwk9ks-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583.3334350585938" y="1524" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="583" y="1524" />
+              <mxPoint x="583" y="1434" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-48" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChaTuG1xbA1_YxKwk9ks-38">
+          <mxGeometry x="0.6991" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.563;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-30" target="ChaTuG1xbA1_YxKwk9ks-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-49" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChaTuG1xbA1_YxKwk9ks-39">
+          <mxGeometry x="0.5933" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.432;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-30" target="ChaTuG1xbA1_YxKwk9ks-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-46" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChaTuG1xbA1_YxKwk9ks-40">
+          <mxGeometry x="0.5769" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-30" target="ChaTuG1xbA1_YxKwk9ks-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="1524" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-47" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChaTuG1xbA1_YxKwk9ks-41">
+          <mxGeometry x="0.6926" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-30" target="ChaTuG1xbA1_YxKwk9ks-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="1873.7083841959638" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="395" y="1816" />
+              <mxPoint x="307" y="1816" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-50" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChaTuG1xbA1_YxKwk9ks-42">
+          <mxGeometry x="0.7106" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChaTuG1xbA1_YxKwk9ks-30" target="ChaTuG1xbA1_YxKwk9ks-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="1815" />
+              <mxPoint x="482" y="1815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-51" value="8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ChaTuG1xbA1_YxKwk9ks-45">
+          <mxGeometry x="0.5679" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-30" value="tín hiệu?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1484" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-31" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Servo2 tăng góc&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="524" y="1374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-32" value="Serbo1 tăng góc" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="1374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-33" value="Sevor3 tăng góc" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="247" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-34" value="Sevor3 giảm góc" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="422" y="1720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-35" value="Sevor1 giảm góc" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-37" value="&lt;div style=&quot;&quot;&gt;Sevor2 giảm góc&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="517" y="1595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-43" value="các sevor về trạng thái mặc định" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="247" y="1842" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChaTuG1xbA1_YxKwk9ks-44" value="Sevor4 kẹp/ mở kẹp" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="422" y="1842" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
